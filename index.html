@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de textos</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    
+</head>
+<body>
+    <header class="container__header">
+        <img class="container__header__logo" src="./assets/images/Logo.svg" alt="Logo de Alura">
+
+    </header>
+    <main>
+        <form class="container" >
+            
+            <textarea class="container__textarea"  name="texto" id="" cols="30" rows="10" placeholder="Ingresa el texto a encriptar" ></textarea>
+            <div class="indicaciones">
+                <img src="./assets/images/Group.svg" alt="Signo de Admiración">
+                <p class="indicaciones__parrafo" >Solo letras minúsculas y sin acentos</p>
+            </div>
+
+            <div class="div_botones" >
+                <button class="boton" id="boton__encriptar" >Encriptar</button>
+                <button class="boton" id="boton__desencriptar">Desencriptar</button>
+            </div>
+
+        </form>
+        <aside class="aside" >
+            <img class="aside__imagen" src="./assets/images/Muñeco.svg"  alt="iamgen de hombre con una lupa">
+            <div class="aside__div">
+                <p id="aside_texto1" >Ningún mensaje fue encontrado</p>
+                <p id="aside_texto2" >Ingresa el texto que desees encriptar o desencriptar.</p>
+                <button class="boton hidden" id="boton__copiar" >Copiar</button>
+            </div>
+       </aside>
+
+    </main>
+
+   
+    
+    <footer >
+        <p>Desarrollado por Christian Malfabón &copy;</p>
+    </footer>
+    <script src="./app.js"></script>
+</body>
+
+</html>
