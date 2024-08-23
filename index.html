@@ -22,6 +22,7 @@
             </div>
 
             <div class="div_botones" >
+                
                 <button class="boton" id="boton__encriptar" >Encriptar</button>
                 <button class="boton" id="boton__desencriptar">Desencriptar</button>
             </div>
@@ -29,16 +30,20 @@
         </form>
         <aside class="aside" >
             <img class="aside__imagen" src="./assets/images/Muñeco.svg"  alt="iamgen de hombre con una lupa">
+                <!-- inicio loader -->
+                <div class="spinner hidden">
+                    <div class="spinner1"></div>
+                </div>
+            <!-- fin leader -->
+
             <div class="aside__div">
-                <p id="aside_texto1" >Ningún mensaje fue encontrado</p>
-                <p id="aside_texto2" >Ingresa el texto que desees encriptar o desencriptar.</p>
-                <button class="boton hidden" id="boton__copiar" >Copiar</button>
+                <p  class="aside__title" id="aside_texto1" >Ningún mensaje fue encontrado</p>
+                <p class="aside__parrafo" id="aside_texto2" >Ingresa el texto que desees encriptar o desencriptar.</p>
+                <button class="boton__copiar hidden"  >Copiar</button>
             </div>
        </aside>
 
     </main>
-
-   
     
     <footer >
         <p>Desarrollado por Christian Malfabón &copy;</p>
