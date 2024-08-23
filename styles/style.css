@@ -163,7 +163,7 @@ main{
     
     overflow: auto;   
     word-wrap: break-word;
-    max-width: 60dvh;
+    max-width: 55dvh;
     white-space: normal;
 }
 
