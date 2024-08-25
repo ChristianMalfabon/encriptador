@@ -3,6 +3,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 :root{
@@ -212,9 +213,13 @@ footer p{
         
     }
 
+    
     #aside_texto2 {
         overflow-y: auto; 
+        max-width: 35dvh;
     }
+
+   
 
     .aside__imagen{
         display: none;
@@ -268,6 +273,16 @@ footer p{
         text-align: center;
 
     }
+
+    #aside_texto2 {
+        font-size: 1rem; 
+        margin: 0 1%; 
+        max-width: 80%;    /*agrego para responsivo*/
+        white-space: normal;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        overflow: hidden;
+    }
    
 }
 
@@ -312,10 +327,20 @@ footer p{
     }
 
     .boton {
-        width: 100%; 
+        width: 90%; 
+        height: auto;
         max-width: 328px; 
         padding: 12px; 
         font-size: 0.875rem; 
+    }
+
+    .boton__copiar{
+        width: 90%; 
+        height: auto;    
+        max-width: 328px; 
+        padding: 12px; 
+        font-size: 0.875rem; 
+
     }
 
     .aside {
@@ -340,7 +365,7 @@ footer p{
     #aside_texto2 {
         font-size: 1rem; 
         margin: 0 1%; 
-        max-width: 100%; 
+        max-width: 95%; 
         white-space: normal;
         word-wrap: break-word;
         overflow-wrap: break-word;
